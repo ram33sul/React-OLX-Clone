@@ -1,0 +1,25 @@
+.container {
+    width: 500px;
+    border: 2px solid black;
+    display: flex;
+    height: 45px;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    border-radius: 5px;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: white;
+}
+
+.container2 {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+@media screen and (max-width:650px){
+    .container{
+        display: none;
+    }
+}

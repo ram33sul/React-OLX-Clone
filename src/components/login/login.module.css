@@ -1,0 +1,57 @@
+.container {
+    border: 1px solid silver;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section1 {
+    margin: auto;
+    margin-top: 10px;
+    width: fit-content;
+}
+
+.input {
+    width: 300px;
+    padding: 5px;
+    border: 0;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.loginButton {
+    margin: auto;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    border: 0;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 100%;
+    cursor: pointer;
+}
+
+.signupButton {
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    border: 0;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 100%;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+    background-color: white;
+    padding: 10px 5vw 10px 5vw;
+    display: flex;
+    gap: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 8;
+}
+
+.dropdown {
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.categories {
+    display: flex;
+    gap: 10px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.categories span:hover {
+    color: skyblue;
+}

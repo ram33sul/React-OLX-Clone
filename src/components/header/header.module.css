@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: rgb(240,240,240);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    z-index: 10;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.languageContainer {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.loginButton {
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+}
+
+.loginButton::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: 0; 
+    background-color: black;
+    left: 0;
+    right: 0;
+}
+
+.loginButton:hover::after {
+    height: 0;
+}
+
+.sellButton {
+    width: fit-content;
+    height: 45px;
+    padding: 0 20px 0 20px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    border-top: 5px solid skyblue;
+    border-bottom: 5px solid orange;
+    border-left: 5px solid yellow;
+    border-right: 5px solid blue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
