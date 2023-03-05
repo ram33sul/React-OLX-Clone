@@ -2,6 +2,7 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 import 'firebase/auth';
+import 'firebase/compat/storage';
 const firebaseConfig = {
     apiKey: "AIzaSyDCSbns75b6SIJTG1zNIE6praIJRzjqb_E",
     authDomain: "react-olx-clone-7c8fd.firebaseapp.com",

@@ -8,11 +8,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-    <firebaseContext.Provider value={{Firebase}}>
-      <Context>
-      <App />
-      </Context>
-    </firebaseContext.Provider>
+      <firebaseContext.Provider value={{Firebase}}>
+        <Context>
+          <App />
+        </Context>
+      </firebaseContext.Provider>
     </BrowserRouter>
   </React.StrictMode>
 );

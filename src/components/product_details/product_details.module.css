@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+}
+
+.imageContainer {
+    width: fit-content;
+}
+
+.section {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section1 {
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 10px;
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 18px;
+}
